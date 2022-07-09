@@ -1,0 +1,197 @@
+header{
+    display: block;
+    width: 100%; 
+    font-family:'Akshar', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center; 
+    color:#FFFFFF ;
+    background-color:#7582AA;
+}
+    
+
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top:15px;
+}
+.resume:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.resume:link{
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+body{
+    background-color: #F0F1FF;
+    font-family: 'Akshar', sans-serif;
+     font-size: 20px;
+}
+#hello{
+    text-align: center ;
+}
+section{
+    display: inline-block;
+    width: 100%; 
+    height: 650px;
+    position:relative;
+    background-color:#ADA2C4;
+}
+#picture1{
+    display: block;
+    margin-left: auto;
+    right: 40px;
+    top:55px;
+    position: relative;
+    padding: 25px;
+    
+}
+h2{
+    color: black;
+    font-family:'Akshar', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+p{
+    color: black;
+    font-family:'Oswald', sans-serif;
+    font-size: 30px;
+    display: block;
+}
+button{
+    background-color:#4E5C80 ;
+    color: #FFFFFF;
+    font-family:'Akshar', sans-serif;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 25px;
+}
+.contactParent{
+    display: block;
+    position: relative;
+    padding: 25px;
+    margin-top:500px;
+    
+
+}
+.RECENT{
+    text-align: center;
+    color: black;
+}
+
+#picture2{
+    display: block;
+    left: 15px;
+    top:75px;
+    position: relative;
+}
+    
+.casestudy{
+    display: block;
+    position: relative;
+    padding: 25px;
+    margin-top:450px;
+    margin-left:54%;
+    margin-right:0%;
+
+}
+footer{
+    display: inline-block;
+    width: 100%; 
+    position:relative;
+    background-color:#7582AA;
+ 
+}
+.socialmedia{
+    display: block;
+    float: right;
+    text-align: center;
+}
+
+#logo{
+    display: block;
+    position: relative;
+    top: 80px;
+    left: 40px;
+    padding: 15px;
+
+}
+#copyright{
+    font-family:'Akshar', sans-serif;
+    font-size: 25px;
+    padding: 15px;
+    color:#FFFFFF ;
+}
+
+@media (min-width:480px){
+        header{
+            font-size:20px;
+        }
+        #picture1{
+            width:200px
+
+        }
+        p{
+
+            font-size:20px;
+        }
+        .inline-block{
+            display: inline-block;
+            vertical-align: top;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top:10px;
+        }
+        button{
+            background-color:#4E5C80 ;
+            color: #FFFFFF;
+            font-family:'Akshar', sans-serif;
+            font-size: 20px;
+            border-radius: 20px;
+            padding: 15px;
+        }
+        #picture2{
+            width:250px;
+            height:250px;
+        }
+        .recentProject{
+            float: right;
+            margin-top:-30%;
+        }
+        footer{
+            display: inline-block;
+            width: 100%; 
+            position:relative;
+            background-color:#7582AA;
+         
+        }
+        .socialmedia{
+            display: block;
+            float: right;
+            text-align: center;
+        }
+        
+        #logo{
+            display: block;
+            position: relative;
+            top: 80px;
+            left: 40px;
+            padding: 15px;
+            width: 100px;
+        
+        }
+        #copyright{
+            font-family:'Akshar', sans-serif;
+            font-size: 15px;
+            padding: 10px;
+            color:#FFFFFF ;
+        }
+
+
+    }
